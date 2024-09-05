@@ -10,7 +10,7 @@ dp = Dispatcher(bot, storage=MemoryStorage())
 
 kl = InlineKeyboardMarkup(resize_keyboard=True)
 button = InlineKeyboardButton(text='Рассчитать норму калорий', callback_data='calories')
-button2 = InlineKeyboardButton(text='Формулы расчёта', callback_data='formulas')
+button2 = InlineKeyboardButton(text='Формула расчёта', callback_data='formulas')
 kl.add(button)
 kl.add(button2)
 
